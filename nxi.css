@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+   
+    box-sizing: border-box;
+}
+.code li a{
+    color: rgb(255, 238, 236);
+    position: relative;
+    z-index: 14;
+    display: flex;
+    text-align: center;
+    gap: 100px;
+    list-style: none;
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+    height: fit-content;
+
+}
+.code li a:hover{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(223, 111, 111);
+    color: white;
+    
+
+    
+}
+body.botton{
+    background-color: #e4d7d7;
+    color: rgb(197, 120, 120);
+
+}
+.code.active{
+    background-color: rgb(97, 56, 56);
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 12px;
+    list-style: none;
+    position: relative;
+    display: flex;
+    width: fit-content;
+    gap: 7px;
+    text-decoration: none;
+    font-family: cursive;
+
+
+}
+body{
+    background-color: rgb(202, 162, 162);
+    font-family: cursive;
+
+
+}
+h1{
+    color: rgb(148, 110, 110);
+    position: relative;
+    width: 20px;
+    height: 30px;
+    z-index: 5;
+    display: flex;
+    text-align: center;
+    padding-left: 1000px;
+    font-size: 100px;
+    cursor: pointer;
+    transform: scale(1.008);
+    justify-content: center;
+
+
+}
+#cute{
+    position: absolute;
+    justify-content: center;
+
+    padding: 2px;
+    z-index: 30;
+    height: 100px;
+    width: 100px;
+    top: 20px;
+    left: 800px;
+
+    box-sizing: content-box;
+}
+#openbtn, #closebtn{
+    background-color: #eebcbc;
+    color: rgb(119, 74, 74);
+    border: 10px;
+    
+}
+#nail1{
+    height: 320px;
+    width: 220px;
+    display: flex;
+    background-color: rgb(148, 110, 110);
+    border: 20px;
+    margin: 80px;
+    object-fit: contain;
+    border-radius: 10px;
+    gap: 8px;
+    flex-direction: column;
+    box-shadow:  0 4px 10px rgb(255, 255, 255);
+}
+
+h3.nail-title{
+    font-size: 25px;
+    color: #e7adad;
+    margin: 10px 0 5px;
+    font-weight:900;
+    margin-top: 20px;
+    height: 20px;
+    bottom: px;
+    left: 98px;
+border: #caa2a2;
+text-align: center;
+    
+
+
+}
+p.nail-price{
+    font-size: 33px;
+    color: #caa2a2;
+   left: 90;
+   height: 20px;
+   justify-content: baseline;
+   top: 10px;
+   border: 15px;
+
+}
+/* التحكم بالكرت كامل كقطعة واحدة */
+.nail-card1 {
+    width: 250px;             /* عرض الكرت كاملاً */
+    background-color: #ffffff;  /* لون خلفية الكرت */
+    border: 2px solid #eebcbc;  /* إطار الكرت */
+    border-radius: 16px;       /* حواف دائرية للكرت */
+    padding: 15px;             /* مسافة داخلية من كل الجهات */
+    
+    /* الخصائص اللي تخليك تتحكمين فيهم كقطعة واحدة مرتبة */
+    display: flex;
+    flex-direction: column;    /* يخليهم يترتبون تحت بعض بالترتيب */
+    align-items: center;       /* يوسط كل العناصر بالنص */                /* مسافة ثابتة بين الصورة والنصوص والزر */
+    margin: 10px auto;         /* تحريك الكرت كامل وتوسيطه بالصفحة */
+}
+
+/* تحكم بحجم الصورة جوا الكرت */
+#nail1 {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* تحكم بحجم العنوان عشان ما يطلع ضخم */
+.nail-title {
+    font-size: 16px;         /* تصغير حجم الخط عشان يناسب المربع */
+    font-weight: bold;       /* بروز الخط */
+    color: #4a4a4a;          /* لون رمادي غامق ناعم */
+    margin: 5px 0;           /* مسافة خفيفة فوق وتحت الاسم */
+    text-align: center;      /* توسيط النص بالنص */
+    word-wrap: break-word;   /* يمنع النص إنه يطلع برة الكرت لو كان طويل */
+}
+
+
+/* تحكم بالسعر */
+.nail-price {
+    font-size: 16px;
+    color: #d87093;
+    margin: 0;
+    margin-top: 10px;
+}
+
+/* تحكم بزر الطلب */
+.nail-card1 a {
+    text-decoration: none;
+    background-color: #eebcbc;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 18px;
+    margin-top: 30px;
+}
+    #nail2{
+    width: 250px;
+    height: 400px;
+background-color: #faf8f8;
+border: 2px;
+text-align: center;
+height: 320px;
+    width: 220px;
+    display: flex;
+    background-color: rgb(148, 110, 110);
+    border: 10px;
+    margin: 30px;
+    object-fit: contain;
+    border-radius: 10px;
+    gap: 3px;
+}
+.nail-title{
+    font-family: cursive;
+    color: #d87093;
+}
+#products-container{
+    display: flex;
+
+    justify-content: center;
+    gap: 20px;
+}
