@@ -83,9 +83,11 @@ h1{
     box-sizing: content-box;
 }
 #openbtn, #closebtn{
-    background-color: #eebcbc;
-    color: rgb(119, 74, 74);
+    background-color: #574242;
+    color: rgb(248, 240, 240);
     border: 10px;
+    width: 70px;
+    height: 20px;
     
 }
 #nail1{
@@ -98,8 +100,7 @@ h1{
     object-fit: contain;
     border-radius: 10px;
     gap: 8px;
-    flex-direction: column;
-    box-shadow:  0 4px 10px rgb(255, 255, 255);
+
 }
 
 h3.nail-title{
@@ -109,7 +110,6 @@ h3.nail-title{
     font-weight:900;
     margin-top: 20px;
     height: 20px;
-    bottom: px;
     left: 98px;
 border: #caa2a2;
 text-align: center;
@@ -131,7 +131,7 @@ p.nail-price{
 .nail-card1 {
     width: 250px;             /* عرض الكرت كاملاً */
     background-color: #ffffff;  /* لون خلفية الكرت */
-    border: 2px solid #eebcbc;  /* إطار الكرت */
+    border: 9px solid #eebcbc;  /* إطار الكرت */
     border-radius: 16px;       /* حواف دائرية للكرت */
     padding: 15px;             /* مسافة داخلية من كل الجهات */
     
@@ -154,8 +154,8 @@ p.nail-price{
 .nail-title {
     font-size: 16px;         /* تصغير حجم الخط عشان يناسب المربع */
     font-weight: bold;       /* بروز الخط */
-    color: #4a4a4a;          /* لون رمادي غامق ناعم */
-    margin: 5px 0;           /* مسافة خفيفة فوق وتحت الاسم */
+    color: #0e0909;          /* لون رمادي غامق ناعم */
+      /* مسافة خفيفة فوق وتحت الاسم */
     text-align: center;      /* توسيط النص بالنص */
     word-wrap: break-word;   /* يمنع النص إنه يطلع برة الكرت لو كان طويل */
 }
@@ -178,29 +178,24 @@ p.nail-price{
     border-radius: 18px;
     margin-top: 30px;
 }
-    #nail2{
-    width: 250px;
-    height: 400px;
-background-color: #faf8f8;
-border: 2px;
-text-align: center;
-height: 320px;
-    width: 220px;
-    display: flex;
-    background-color: rgb(148, 110, 110);
-    border: 10px;
-    margin: 30px;
-    object-fit: contain;
-    border-radius: 10px;
-    gap: 3px;
-}
-.nail-title{
+h2{
     font-family: cursive;
-    color: #d87093;
+justify-content: center;
+    color: #ac6161;
+    z-index: 100px;
+    text-align: center;
+    top: 100px;
+    height: 120px;
+    width: 200px;
+    right: 10px;
 }
-#products-container{
-    display: flex;
+.code{
+display: none;
+}
 
-    justify-content: center;
-    gap: 20px;
+.code.active{
+ display: block;
+}
+.login{
+    color: #ac6161;
 }

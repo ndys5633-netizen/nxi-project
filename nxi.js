@@ -7,5 +7,3 @@ openbtn.addEventListener('click' , function(){
 closebtn.addEventListener('click' , function() {
     sidebar.classList.remove('active');
 })
-
-

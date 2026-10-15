@@ -1,0 +1,17 @@
+form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    color: #927373;
+    font-family: cursive;
+    height: 27px;
+
+}
+body{
+    background-color: #e7adad;
+    
+}
+h1{
+color: #927373;
+font-size: 250;
+}
